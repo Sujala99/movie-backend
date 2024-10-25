@@ -1,0 +1,27 @@
+Setup:
+
+In your fullstack folder, create an S83 folder.
+Build an ExpressJS API for a movie catalog system within 4 hours, focusing on:
+Comments
+CRUD operations for admin functionality
+Authentication and login
+Features:
+
+Users should be able to register and login with an email and password.
+Add an isAdmin property for users.
+Authenticated users should be able to:
+Add comments to a movie.
+Get comments from a movie.
+Each movie should have the following fields:
+Title, Director, Year, Description, Genre, Comments (as a subdocument array).
+Only admin users can:
+Create, update, and delete movies in the catalog.
+All users can:
+Retrieve movies from the catalog.
+Retrieve a single movie by ID.
+Additional Requirements:
+
+Create a movieApp.json file in the project folder and add all available routes.
+Follow the template provided by the instructor.
+Implement error handling, HTTP status codes, and appropriate response messages.
+Ensure that the ID is not passed in the request body.
